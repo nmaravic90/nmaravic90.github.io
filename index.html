@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikola Maravic | Software Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icon/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top border-bottom border-secondary">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-light" href="#">nmaravic90<span class="text-accent">.dev</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="about" class="py-5">
+    <div class="container pt-3">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h1 class="display-4 fw-bold text-light">Nikola Maravić</h1>
+          <h3 class="text-accent mb-3">Software Engineer | Event-Driven Systems | Microservices & REST APIs | Java, Spring Boot & Kafka</h3>
+          <p class="lead text-light"> Software Engineer with 7+ years of experience building scalable, event-driven, cloud-native enterprise
+            systems using <strong class="text-accent">Java, Spring Boot, Apache Kafka, Elasticsearch</strong>, and 
+            <strong class="text-accent">Microsoft Azure</strong>. Specialized in Master Data Management (MDM), distributed systems, and Golden Record architectures.
+          </p>
+          <div class="mt-4">
+            <a href="mailto:n.maravic90@gmail.com" class="btn btn-accent me-2 mb-2"><i class="fas fa-envelope me-1"></i>Contact Me</a>
+            <a href="assets/doc/nikola-maravic-resume.pdf" target="_blank" class="btn btn-outline-light me-2 mb-2"><i class="fas fa-file-pdf text-accent me-1"></i> Download Resume</a>
+            <a href="https://linkedin.com/in/nmaravic" target="_blank" class="btn btn-outline-light me-2 mb-2"><i class="fab fa-linkedin me-1"></i> LinkedIn</a>
+            <a href="https://github.com/nmaravic90" target="_blank" class="btn btn-outline-light mb-2"><i class="fab fa-github me-1"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="p-4 bg-card">
+            <h5 class="text-light border-bottom border-secondary pb-2 mb-3"><i class="fas fa-terminal text-accent me-2"></i>developer.env</h5>
+            <div class="font-monospace small">
+              <p class="mb-2"><span class="text-accent fw-bold">LOCATION=</span><span class="text-light">"Regensdorf, Zurich, CH"</span></p>
+              <p class="mb-2"><span class="text-accent fw-bold">EMAIL=</span><a href="mailto:n.maravic90@gmail.com" class="text-light text-decoration-none hover-underline">"n.maravic90@gmail.com"</a></p>
+              <p class="mb-2"><span class="text-accent fw-bold">PHONE=</span><a href="tel:+41795867743" class="text-light text-decoration-none hover-underline">"+41 79 586 77 43"</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="achievements" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-light fw-bold mb-4"><span class="text-accent">#</span> Key Achievements</h2>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-card h-100">
+            <i class="fas fa-code text-accent fs-2 mb-2"></i>
+            <h6 class="text-light fw-bold">Enterprise REST API</h6>
+            <p class="small mb-0">Designed and implemented a REST API (10+ endpoints) for person and organization data,
+              supporting mandatory and optional query parameters, with an Angular-based UI for endto-end validation and
+              testing.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-card h-100">
+            <i class="fas fa-search text-accent fs-2 mb-2"></i>
+            <h6 class="text-light fw-bold">Elasticsearch Migration</h6>
+            <p class="small mb-0">Implemented an end-to-end Elasticsearch solution, including migration of several
+              million Person records (with Contact Points) from a
+              relational database into Elasticsearch, completing the initial bulk load in under 10 minutes, plus a
+              scalable search API and functional testing-validation UI.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-card h-100">
+            <i class="fas fa-stream text-accent fs-2 mb-2"></i>
+            <h6 class="text-light fw-bold">Kafka Address Pipeline</h6>
+            <p class="small mb-0">Built a Kafka event-driven service that calculates complex domicile addresses by
+              consuming events from one topic and producing
+              processed results to another.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-card h-100">
+            <i class="fas fa-check-circle text-accent fs-2 mb-2"></i>
+            <h6 class="text-light fw-bold">Fuzzy Address Validation</h6>
+            <p class="small mb-0">Developed a shared validation library for Kafka event processing that validates event
+              attributes,
+              implements postal address fuzzy matching using Elasticsearch, and publishes results with field-specific
+              error codes to Kafka topic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-light fw-bold mb-4"><span class="text-accent">#</span> Work Experience</h2>
+      <div class="timeline-item">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <h4 class="text-light mb-0">Software Engineer &ndash; <span class="text-accent"><a
+                href="https://www.zurich.com/" target="_blank">Zurich Insurance</a></span></h4>
+          <span class="badge bg-secondary">10/2022 &ndash; 03/2026 | Zurich, Switzerland</span>
+        </div>
+        <p class="small mt-1">Cloud-native Master Data Management (MDM) platform on Microsoft Azure</p>
+        <ul>
+          <li>Built Kafka-based event-driven pipelines for real-time synchronization of party data across distributed systems,supporting Golden Record consistency within the MDM platform.</li>
+          <li>Designed and delivered cloud-native microservices supporting policy and party data domains within enterprise insurance systems.</li>
+          <li>Defined and implemented REST APIs and shared backend libraries used across multiple teams.</li>
+          <li>Worked directly with architects, DevOps engineers, and business stakeholders to align technical design with data-governance requirements.</li>
+          <li>Deployed and operated containerized applications using Kubernetes, Docker, Helm, Argo CD, and Azure.</li>
+        </ul>
+         <div class="d-flex flex-wrap gap-2 mt-3">
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-java-plain colored fs-6"></i> Java
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-spring-plain colored fs-6"></i> Spring Booot
+          </span>
+           <span  class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-hibernate-plain colored fs-6"></i> JPA
+          </span>
+             <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-azuresqldatabase-plain colored"></i> Azure SQL
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-apachekafka-original"></i> Apache Kafka
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-elasticsearch-plain colored"></i> Elasticsearch
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-openapi-plain colored"></i> OpenAPI
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-swagger-plain colored"></i> Swagger
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="fas fa-regular fa-key"></i> Keycloak
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-junit-plain colored"></i> JUnit/Mockito
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1"> 
+            <i class="devicon-postman-plain colored"></i> Postman
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-maven-plain-wordmark"></i> Maven
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-git-plain colored"></i> Git
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-docker-plain colored"></i> Docker
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1"> 
+            <i class="devicon-azure-plain colored"></i> Azure
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1"> 
+            <i class="devicon-kubernetes-plain"></i> Kubernetes
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1"> 
+            <i class="devicon-helm-original"></i> Helm
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-argocd-plain colored"></i> ArgoCD
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-angular-plain colored"></i> Angular
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-html5-plain colored"></i> HTML
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-css3-plain colored"></i> CSS
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-bootstrap-plain colored"></i> Bootstrap
+          </span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <h4 class="text-light mb-0">Software Engineer &ndash; <span class="text-accent"><a
+                href="https://www.endava.com/" target="_blank">Endava</a></span></h4>
+          <span class="badge bg-secondary">02/2020 &ndash; 08/2022 | Belgrade, Serbia</span>
+        </div>
+        <p class="small mt-1">Adobe Connect virtual meeting platform</p>
+        <ul>
+          <li>Developed backend features for Adobe Connect, a large-scale virtual meeting platform.</li>
+          <li>Implemented REST APIs within a custom enterprise framework, worked in distributed teams across USA, Serbia, India.</li>
+          <li>Delivered production SQL scripts for data fixes and Python scripts for automated API testing.</li>
+        </ul>
+         <div class="d-flex flex-wrap gap-2 mt-3">
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-java-plain colored fs-6"></i> Java
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-microsoftsqlserver-plain colored"></i> MsSqlServer
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="fas fa-network-wired text-accent fs-6"></i> REST
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-python-plain colored"></i> Python
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-splunk-original-wordmark"></i> Splank
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-git-plain colored"></i> Git
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-html5-plain colored"></i> HTML
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-css3-plain colored"></i> CSS
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+           <i class="devicon-jira-plain colored"></i> Jira
+          </span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <h4 class="text-light mb-0">Software Developer &ndash; <span class="text-accent"><a
+                href="https://mak-system.com/" target="_blank">Mak System</a></span></h4>
+          <span class="badge bg-secondary">01/2017 &ndash; 02/2020 | Belgrade, Serbia</span>
+        </div>
+        <p class="small mt-1">Blood bank management systems (ePROGESA, eDRM)</p>
+        <ul>
+          <li>Developed backend functionality and adapted JSP-based frontend pages for blood bank management systems
+            used in production healthcare environments.</li>
+        </ul>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-java-plain colored fs-6"></i> Java
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-spring-plain colored fs-6"></i> Spring
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-hibernate-plain colored fs-6"></i> Hibernate
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-sqldeveloper-plain"></i> SQL Developer
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="fas fa-network-wired text-accent fs-6"></i> SOAP
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-html5-plain colored fs-6"></i> JSP / HTML
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-css3-plain colored fs-6"></i> CSS
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-foundation-plain colored fs-6"></i> Foundation
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">
+            <i class="devicon-subversion-original colored"></i> SVN
+          </span>
+        </div>
+      </div>
+<div class="timeline-item">
+  <div class="d-flex justify-content-between align-items-center flex-wrap">
+    <h4 class="text-light mb-0">Web Developer &ndash; <span class="text-accent">Freelance</span>
+    </h4>
+    <div>
+      <span class="badge bg-info text-dark me-1">Parallel Role</span>
+      <span class="badge bg-secondary">11/2016 &ndash; 02/2020</span>
+    </div>
+  </div>
+  <p class="small  mt-1">
+    Designed and developed custom websites and web applications for small businesses and organizations, delivering end-to-end solutions from design and development to deployment and hosting.
+  </p>
+  <ul>
+    <li>Developed responsive websites and web applications using PHP, JavaScript, HTML, CSS, Sass, jQuery, and Bootstrap.</li>
+    <li>Implemented interactive UI components and website functionality tailored to client requirements.</li>
+    <li>Managed deployment, hosting configuration, and ongoing website maintenance, ensuring stable production environments.</li>
+  </ul>
+ <div class="d-flex flex-wrap gap-2 mt-3">
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-php-plain colored"></i> PHP
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-html5-plain colored"></i> HTML
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-css3-plain colored"></i> CSS
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+           <i class="devicon-sass-original colored"></i> Sass
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-bootstrap-plain colored"></i> Bootstrap
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+            <i class="devicon-javascript-plain colored"></i> Java Script
+          </span>
+          <span
+            class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+           <i class="devicon-jquery-plain colored"></i> jQuery
+          </span>
+          <span class="badge bg-dark border border-secondary text-light px-2 py-1 align-items-center d-inline-flex gap-1">   
+           <i class="devicon-photoshop-plain colored"></i> Photoshop
+          </span>
+        </div>
+</div>
+    </div>
+  </section>
+  <section id="tech" class="py-4">
+  <div class="container">
+    <h2 class="text-light fw-bold mb-4"><span class="text-accent">#</span> Tech Stack & Expertise</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-server me-2"></i>Core Backend</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-java-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Java</span></div>
+            <div class="text-center tech-box"><i class="devicon-spring-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Spring Boot</span></div>
+            <div class="text-center tech-box"><i class="devicon-hibernate-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Hibernate/JPA</span></div>
+            <div class="text-center tech-box"><i class="devicon-apachekafka-original fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Apache Kafka</span></div>
+            <div class="text-center tech-box"><i class="devicon-elasticsearch-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Elasticsearch</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-cloud me-2"></i>Cloud & DevOps</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-azure-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Azure</span></div>
+            <div class="text-center tech-box"><i class="devicon-kubernetes-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Kubernetes</span></div>
+            <div class="text-center tech-box"><i class="devicon-docker-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Docker</span></div>
+            <div class="text-center tech-box"><i class="devicon-helm-original fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Helm</span></div>
+            <div class="text-center tech-box"><i class="devicon-argocd-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Argo CD</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-database me-2"></i>Databases</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-azuresqldatabase-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Azure SQL</span></div>
+            <div class="text-center tech-box"><i class="devicon-postgresql-plain-wordmark colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Postgre SQL</span></div>
+            <div class="text-center tech-box"><i class="devicon-sqldeveloper-plain fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">SQL Developer</span></div>
+            <div class="text-center tech-box"><i class="devicon-mysql-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">MySQL</span></div>
+            <div class="text-center tech-box"><i class="devicon-microsoftsqlserver-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">MS SQL Server</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-code me-2"></i>Frontend</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-angularjs-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Angular</span></div>
+            <div class="text-center tech-box"><i class="devicon-typescript-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">TypeScript</span></div>
+            <div class="text-center tech-box"><i class="devicon-javascript-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">JavaScript</span></div>
+            <div class="text-center tech-box"><i class="devicon-html5-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">HTML</span></div>
+            <div class="text-center tech-box"><i class="devicon-css3-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">CSS</span></div>
+            <div class="text-center tech-box"><i class="devicon-bootstrap-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Bootstrap</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-tools me-2"></i>Tools & Platforms</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-git-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Git</span></div>
+            <div class="text-center tech-box"><i class="devicon-maven-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Maven</span></div>
+            <div class="text-center tech-box"><i class="devicon-swagger-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Swagger</span></div>
+            <div class="text-center tech-box"><i class="devicon-postman-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Postman</span></div>
+            <div class="text-center tech-box"><i class="fas fa-regular fa-shield-dog fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Bruno</span></div>
+            <div class="text-center tech-box"><i class="devicon-insomnia-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Insomnia</span></div>
+            <div class="text-center tech-box"><i class="devicon-kibana-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Kibana</span></div>
+            <div class="text-center tech-box"><i class="devicon-splunk-original-wordmark fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Splunk</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column">
+          <h5 class="text-accent mb-3"><i class="fas fa-plus-circle me-2"></i>Additional Exposure</h5>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <div class="text-center tech-box"><i class="devicon-redis-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Redis</span></div>
+            <div class="text-center tech-box"><i class="devicon-python-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">Python</span></div>
+            <div class="text-center tech-box"><i class="devicon-php-plain colored fs-2"></i><span class="d-block text-light mt-1" style="font-size: 0.75rem;">PHP</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section id="projects" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-light fw-bold mb-4"><span class="text-accent">#</span> Projects</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h5 class="text-light fw-bold"><i class="fas fa-credit-card text-accent me-2"></i>Payment API Service</h5>
+              <p class="small">Payment processing REST API built with Spring Boot and enterprise best practices.</p>
+            </div>
+            <a href="https://github.com/nmaravic90/nmaravic-payment-api" target="_blank"
+              class="text-accent text-decoration-none small fw-bold"><i class="fab fa-github me-1"></i> GitHub
+              Repository &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h5 class="text-light fw-bold"><i class="fas fa-film text-accent me-2"></i>Movie API Service</h5>
+              <p class="small">Movie management REST API service providing structured endpoints and search.</p>
+            </div>
+            <a href="https://github.com/nmaravic90/nmaravic-movie-api" target="_blank"
+              class="text-accent text-decoration-none small fw-bold"><i class="fab fa-github me-1"></i> GitHub
+              Repository &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h5 class="text-light fw-bold"><i class="fas fa-terminal text-accent me-2"></i>Delete Accounts Automation
+              </h5>
+              <p class="small">Python automation script for bulk deletion of disabled user accounts via REST API.</p>
+            </div>
+            <a href="https://github.com/nmaravic90/delete-accounts" target="_blank"
+              class="text-accent text-decoration-none small fw-bold"><i class="fab fa-github me-1"></i> GitHub
+              Repository &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="certificates" class="py-4">
+  <div class="container">
+    <h2 class="text-light fw-bold mb-4"><span class="text-accent">#</span> Certifications & Training</h2>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column justify-content-between">
+          <div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="devicon-spring-plain colored fs-2 me-2"></i>
+              <div>
+                <h6 class="text-light fw-bold mb-0">Build AI Apps with Spring AI, OpenAI, Ollama & SpringBoot</h6>
+                <span class="text-accent small" style="font-size: 0.75rem;">Udemy &bull; Pragmatic Code School</span>
+              </div>
+            </div>
+            <p class="small mb-2" style="font-size: 0.8rem;">
+              Learn chat with LLMs, Retrieval-Augmented Generation, tool calling, and multimodal AI using Spring AI.
+            </p>
+          </div>
+          <div>
+          <button class="btn btn-sm btn-outline-secondary w-100 py-1 text-light disabled" style="font-size: 0.75rem; opacity: 0.8;">
+              <i class="fas fa-tasks text-accent me-1"></i> In Progress
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column justify-content-between">
+          <div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="devicon-google-plain colored fs-2 me-2"></i>
+              <div>
+                <h6 class="text-light fw-bold mb-0">Google AI Essentials</h6>
+                <span class="text-accent small" style="font-size: 0.75rem;">Google &bull; Coursera</span>
+              </div>
+            </div>
+            <p class="small mb-2" style="font-size: 0.8rem;">
+              Specialization covering AI tools, prompting techniques, responsible AI usage, and workflows to boost productivity[cite: 13].
+            </p>
+          </div>
+          <div>
+            <div class="mb-2">
+              <span class="badge bg-dark border text-light" style="font-size: 0.7rem;">
+                <i class="far fa-calendar-alt me-1"></i> Aug 5, 2026
+              </span>
+            </div>
+            <div class="d-flex gap-1">
+              <a href="https://coursera.org/verify/specialization/03CPF0TBX43U" target="_blank" class="btn btn-sm btn-accent flex-grow-1 py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-external-link-alt me-1"></i> Verify
+              </a>
+              <a href="assets/docs/nikola-maravic-google-ai-essentials.pdf" target="_blank" class="btn btn-sm btn-outline-light py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-file-pdf text-accent"></i> PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column justify-content-between">
+          <div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="devicon-apachekafka-original fs-2 me-2"></i>
+              <div>
+                <h6 class="text-light fw-bold mb-0">Apache Kafka Series - Kafka Streams for Data Processing</h6>
+                <span class="text-accent small" style="font-size: 0.75rem;">Udemy &bull; Stephane Maarek</span>
+              </div>
+            </div>
+            <p class="small  mb-2" style="font-size: 0.8rem;">
+              Learn the Kafka Streams API with Hands-On Examples, Learn Exactly Once, Build and Deploy Apps with Java 8.
+            </p>
+          </div>
+          <div>
+            <div class="mb-2">
+              <span class="badge bg-dark border text-light" style="font-size: 0.7rem;">
+                <i class="far fa-calendar-alt me-1"></i> Jul 2026
+              </span>
+            </div>
+            <div class="d-flex gap-1">
+              <a href="https://ude.my/UC-315c689a-580f-42a4-bb40-6a14baf02058" target="_blank" class="btn btn-sm btn-accent flex-grow-1 py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-external-link-alt me-1"></i> Verify
+              </a>
+              <a href="assets/docs/nikola-maravic-certificte-kafka-streams" target="_blank" class="btn btn-sm btn-outline-light py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-file-pdf text-accent"></i> PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column justify-content-between">
+          <div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="devicon-redis-plain colored fs-2 me-2"></i>
+              <div>
+                <h6 class="text-light fw-bold mb-0">Redis: Complete Developer's Guide</h6>
+                <span class="text-accent small" style="font-size: 0.75rem;">Udemy &bull; Stephen Grider</span>
+              </div>
+            </div>
+            <p class="small mb-2" style="font-size: 0.8rem;">
+              Master Redis v7.0 with hands-on exercises. Includes Modules, Scripting, Concurrency, and Streams!
+            </p>
+          </div>
+          <div>
+            <div class="mb-2">
+              <span class="badge bg-dark border text-light" style="font-size: 0.7rem;">
+                <i class="far fa-calendar-alt me-1"></i> Jul 21, 2026
+              </span>
+            </div>
+            <div class="d-flex gap-1">
+              <a href="https://ude.my/UC-00408db1-cbaa-4a54-b01c-ea2622fed543" target="_blank" class="btn btn-sm btn-accent flex-grow-1 py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-external-link-alt me-1"></i> Verify
+              </a>
+              <a href="assets/docs/nikola-maravic-certificate-redis.pdf" target="_blank" class="btn btn-sm btn-outline-light py-1" style="font-size: 0.75rem;">
+                <i class="fas fa-file-pdf text-accent"></i> PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 bg-card h-100 d-flex flex-column justify-content-between">
+          <div>
+            <div class="d-flex align-items-center mb-2">
+              <i class="devicon-kubernetes-plain colored fs-2 me-2"></i>
+              <div>
+                <h6 class="text-light fw-bold mb-0">Container & Kubernetes DevOps</h6>
+                <span class="text-accent small" style="font-size: 0.75rem;">letsboot.ch &bull; Swiss Dev &bull; Pierre Wilken</span>
+              </div>
+            </div>
+            <p class="small  mb-2" style="font-size: 0.8rem;">
+              Mastered container orchestration, Docker packaging, and Kubernetes deployment workflows.
+            </p>
+          </div>
+          <div>
+            <div class="mb-2">
+              <span class="badge bg-dark border text-light" style="font-size: 0.7rem;">
+                <i class="far fa-calendar-alt me-1"></i> Jan 31, 2024
+              </span>
+            </div>
+            <a href="assets/docs/nikola-maravic-letsboot-certificate.pdf" target="_blank" class="btn btn-sm btn-outline-light w-100 py-1" style="font-size: 0.75rem;">
+              <i class="fas fa-file-pdf text-accent me-1"></i> PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <footer class="py-4 border-top border-secondary text-center">
+    <div class="container">
+      <p class="small mb-1">&copy; 2026 Nikola Maravić | Software Engineer</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
