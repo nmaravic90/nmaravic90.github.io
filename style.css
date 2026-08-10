@@ -103,3 +103,12 @@ nav.navbar {
   background-color: rgba(15, 23, 42, 0.95) !important; 
   backdrop-filter: blur(10px); 
 }
+
+@media (min-width: 768px) {
+  .footer-badge {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
